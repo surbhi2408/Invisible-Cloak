@@ -1,6 +1,6 @@
 # Invisible-Cloak
 This is an Invisible Cloak created using an image processing technique called color detection and segmentation.
-I have used red cloth here. We can use any other color of cloth.
+I have used red color cloth here. We can use any other color of cloth.
 
 ### Algorithm:
 <ol type="1">
@@ -8,3 +8,4 @@ I have used red cloth here. We can use any other color of cloth.
   <li> Detect the given colored cloth using color detection and segmentation algorithm. </li>
   <li> Segment out the given colored cloth by generating a mask. [ used in code ] </li>
   <li> Generate the final augmented output to create a magical effect. </li>
+</ol>
