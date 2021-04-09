@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import time
 
+
 print("""
     Hey !! Ms Surbhi Lets get deep in Image Processing be Ready to try Invisibility test.
      """)
@@ -46,7 +47,7 @@ while cap.isOpened():
     res2 = cv2.bitwise_and(img, img, mask=mask2)
     final_output = cv2.addWeighted(res1, 1, res2, 1, 0)
 
-    # imshow to see the result
+    # imshow to see the result (magic)
     cv2.imshow('Magical !!!', final_output)
     k = cv2.waitKey(10)
 
